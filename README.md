@@ -1,5 +1,8 @@
 # Notes
 
+## Unix
+* Copy current folder tree with only .env files for machine migration : `sudo find . -name '*.env' | sudo cpio -pdm  env_backup/`
+
 ## Firebase
 
 1. Initialisation et commandes de base d'un projet functions :  
